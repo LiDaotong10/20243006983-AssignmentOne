@@ -7,4 +7,9 @@
     <string name="events">Events</string>
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
+    <string name="back">Back</string>
+    <string name="detail_activity_label">CampusLife details</string>
+    <string name="detail_image_description">Selected CampusLife section image</string>
+    <string name="detail_title_placeholder">This is a title</string>
+    <string name="detail_content_placeholder">This is content</string>
 </resources>
