@@ -24,28 +24,28 @@ public class MainActivity extends Activity {
         ImageButton supportButton = findViewById(R.id.support_button);
 
         facilitiesButton.setOnClickListener(view -> {
-            Toast.makeText(this, "Facilities clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_facilities_clicked), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_SECTION_INDEX, SECTION_FACILITIES);
             startActivity(intent);
         });
 
         eventsButton.setOnClickListener(view -> {
-            Toast.makeText(this, "Events clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_events_clicked), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_SECTION_INDEX, SECTION_EVENTS);
             startActivity(intent);
         });
 
         clubsButton.setOnClickListener(view -> {
-            Toast.makeText(this, "Clubs clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_clubs_clicked), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_SECTION_INDEX, SECTION_CLUBS);
             startActivity(intent);
         });
 
         supportButton.setOnClickListener(view -> {
-            Toast.makeText(this, "Support clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.toast_support_clicked), Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, DetailActivity.class);
             intent.putExtra(DetailActivity.EXTRA_SECTION_INDEX, SECTION_SUPPORT);
             startActivity(intent);

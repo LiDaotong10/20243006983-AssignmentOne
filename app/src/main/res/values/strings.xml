@@ -7,6 +7,10 @@
     <string name="events">Events</string>
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
+    <string name="toast_facilities_clicked">Facilities clicked</string>
+    <string name="toast_events_clicked">Events clicked</string>
+    <string name="toast_clubs_clicked">Clubs clicked</string>
+    <string name="toast_support_clicked">Support clicked</string>
     <string name="back">Back</string>
     <string name="detail_activity_label">CampusLife details</string>
     <string name="detail_image_description">Selected CampusLife section image</string>

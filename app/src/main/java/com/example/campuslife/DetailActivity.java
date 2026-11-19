@@ -39,10 +39,12 @@ public class DetailActivity extends Activity {
                 getPackageName());
 
         ImageView detailImage = findViewById(R.id.detail_image);
+        TextView detailHeader = findViewById(R.id.detail_header);
         TextView detailTitle = findViewById(R.id.detail_title);
         TextView detailContent = findViewById(R.id.detail_content);
 
         detailImage.setImageResource(imageResourceId);
+        detailHeader.setText(title);
         detailTitle.setText(title);
         detailContent.setText(content);
 
